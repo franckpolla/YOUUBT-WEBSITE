@@ -1,0 +1,132 @@
+/******************section header***************/
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    background-image: url(/bg.jpg);
+    background-position:  top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -250px;
+    height: 40rem;
+}
+
+
+.navbar img{
+    margin-top: -20px;
+    margin-left: 50px;
+}
+.navbar{
+    position: sticky !important;
+    top: 0 !important;
+    bottom: 0;
+    z-index: 1000;
+}
+.navbar-nav a{
+    color:rgb(96, 72, 201);
+    font-size: medium;
+    font-weight: 600;
+    
+}
+.navbar-nav a:hover{
+    color:rgb(255, 255, 255);
+    font-size: medium;
+    font-weight: 600;
+}
+.card-body{
+    background-image: linear-gradient(rgba(17, 17, 17, 0.685),rgba(227, 229, 231, 0.267)) !important; 
+  color: white;
+  margin-top: -100px;
+}
+.card-body svg{
+    background-image: linear-gradient(rgba(30, 30, 31, 0.685),rgba(233, 232, 233, 0.267)) !important; 
+  color: rgb(255, 255, 255);
+}
+.card-body h5{
+display: inline;
+color: white;
+}
+.card-body a{
+color: rgb(25, 72, 175);
+}
+#information{
+    background: rgba(242, 242, 245, 0.856)!important; 
+      height: auto !important;
+}
+.navbar-nav{
+    float: right;
+    margin: -15px;
+    }
+/**********documentsbourse section************/
+#documentsbourse{
+    height: auto;
+   
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.5)),url(/pexels-keira-burton-6147398.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.alert{
+    padding: -50px;
+}
+
+/**********secret section ********/
+#secret .col {
+    justify-content: center;
+    align-items: center;
+}
+#secret .col img{
+    width: 3.5rem;
+    margin: 10px;   
+}
+#secret .col a:hover{
+    width:6rem !important;
+    
+    
+}
+
+.card-body{
+    position: relative;
+    animation:  alert 5s;
+}
+.alert {
+    font-weight: bold;
+    position: relative;
+    animation:  alert 7s;
+  }
+
+.alert{animation-timing-function: ease;}
+.card-body{
+    position:relative;
+    animation: card 7s;
+
+
+}
+
+/***************back to top button**************/
+.back-to-top{
+    float: right;
+    margin-top:-20px ;
+    border: none;
+    background: none;
+}
+
+@keyframes card {
+    from {left: -230px;}
+    to {left: 4px;}
+  }
+@keyframes alert {
+    from {left: -230px;}
+    to {left: 4px;}
+  }
+
+
+@media screen and (max-width: 1000px)  { 
+    .card{
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    
+}
